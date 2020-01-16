@@ -12,6 +12,8 @@ function watchButton(){
 		let sectionC=document.getElementsByClassName("seccionComments");
 		sectionC[0].append(dispName);
 		sectionC[0].append(dispComment);
+		name[0].value="";
+		comment.value="";
 	});
 }
 
